@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section-container{
+    display:flex;
+    align-items: center;
+    background-color: rgb(215, 166, 228);
+    justify-content: space-around;
+}
+.head-column{
+    width: 400px;
+}
+.head-title{
+    font-size: 50px;
+    font-family:fantasy;
+    font-weight: 600;
+    
+}
+.head-discription{
+    margin: 10px 0;
+}
+.main-img{
+    height: 80vh;
+}
+.shop-btn{
+    margin: 20px 0;
+    padding: 10px 20px 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(180, 20, 201);
+    color: rgb(0, 0, 0);
+    border: 10px;
+
+
+}
+/***********************section*****************/
+.featured-section{
+    margin: auto;
+    padding: 120px 180px;
+}
+.featured-info{
+    width: 400px;
+    margin: auto;
+}
+.featured-title{
+    color: rgb(114, 19, 158);
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.featured-description{
+    text-align: center;
+    margin: 10px;
+}
+.featured-img{
+    align-self: center;
+    display: flex;
+    padding: 60px 8px;
+    justify-content: space-around;
+    
+}
+.img-1{
+    border-radius: 70px;
+    background-color: rgb(182, 189, 190);
+    
+
+}
+.img-2{
+    border-radius: 70px;
+    background-color: rgb(158, 139, 75);
+        
+    }
+    .img-3{
+        border-radius: 70px;
+    background-color: rgb(107, 184, 184);
+    
+}
+
+
+/**************/
+.off-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 60px;
+    background-color: rgb(187, 116, 209);
+
+}
+.discount-column{
+    width: 400px;
+    text-align:center;
+}
+.facebook-title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.off{
+    color: rgb(3, 7, 241);
+    font-weight: 600;
+    font-size: 20px;
+}
+.discount-discription{
+    text-align: center;
+    margin: 10px;
+}
+.sign-up{
+    border: 0;
+    padding: 10px 30px;
+    color: rgb(43, 8, 238);
+    margin: auto;
+    margin: 10px;
+    font-size: 20px;
+    background-color: rgb(228, 230, 118);
+    border-radius: 10px;
+    }
+    /******************/
+    .facebook-section{
+        margin:auto;
+        padding: 60px 40px;
+        width: 400px;
+        text-align: center;
+    }
+    .facebook-title{
+        margin: 10px 5px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 70px 40px;
+        
+    }
+    .facebook-discription{
+        text-align: center;
+    }
+    .facebook-img{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+        gap: 10px;
+        margin: 60px 40px;
+    
+    }
+.img-name{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
